@@ -1,0 +1,10 @@
+framework module FooKit {
+  umbrella header "FooKit.h"
+
+  export *
+  module * { export * }
+}
+
+module FooKit.Swift {
+    header "FooKit-Swift.h"
+}

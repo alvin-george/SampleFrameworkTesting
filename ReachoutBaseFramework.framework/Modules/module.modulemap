@@ -1,0 +1,10 @@
+framework module ReachoutBaseFramework {
+  umbrella header "ReachoutBaseFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ReachoutBaseFramework.Swift {
+    header "ReachoutBaseFramework-Swift.h"
+}
